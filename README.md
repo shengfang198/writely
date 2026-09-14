@@ -2,6 +2,10 @@
 
 Writely is a browser-based document editor built with React, ProseMirror, Tailwind CSS, and Vite. Documents are stored locally in the browser, so the current version does not require an account or backend server.
 
+## Live Website
+
+[Open Writely](https://writely-uly4.onrender.com/)
+
 ## Features
 
 - Create documents using A0 through A8 paper sizes
