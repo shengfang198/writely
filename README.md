@@ -24,25 +24,50 @@ The Agent panel currently provides sample local replies only. It is not connecte
 ## Requirements
 
 - Node.js 20.19 or newer
-- npm
+- npm (included with Node.js)
 - A modern browser with IndexedDB support
 
-## Install and Run
+Check that Node.js and npm are installed:
 
-From the project directory:
+```bash
+node --version
+npm --version
+```
+
+If either command is unavailable, install the current Node.js LTS release from [nodejs.org](https://nodejs.org/).
+
+## Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/shengfang198/writely.git
+cd writely
+```
+
+If the repository is already on your computer, open a terminal in its root directory instead.
+
+2. Install the dependencies:
 
 ```bash
 npm install
+```
+
+3. Start the development server:
+
+```bash
 npm run dev
 ```
 
-Open the local URL shown by Vite, usually:
+4. Open the `Local` URL printed in the terminal. It is usually:
 
 ```text
 http://localhost:5173
 ```
 
-Stop the development server with `Ctrl+C`.
+Vite automatically selects another port, such as `5174`, when the default port is busy. Keep the terminal running while using Writely. Press `Ctrl+C` in the terminal to stop the server.
+
+If startup fails, remove `node_modules`, run `npm install` again, and verify that your Node.js version meets the requirement above.
 
 ## Production Build
 
