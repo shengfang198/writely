@@ -6,6 +6,8 @@ Writely is a browser-based document editor built with React, ProseMirror, Tailwi
 
 [Open Writely](https://writely-uly4.onrender.com/)
 
+For minimal setup instructions, see the [Quick Start guide](QUICKSTART.md).
+
 ## Features
 
 - Create documents using A0 through A8 paper sizes
